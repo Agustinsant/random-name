@@ -72,8 +72,9 @@ button.addEventListener('click', function(){
 })
 
 randomize.addEventListener('click', function(){
-    let ganador = nombres[Math.round(Math.random() * nombres.length)]
+    let ganador = nombres[Math.floor(Math.random() * nombres.length)]
     let nombreGanador = document.createElement('h2')
+    nombreGanador.classList.add('ganador')
     nombreGanador.innerHTML = ganador
     ganadorContainer.appendChild(nombreGanador)
 

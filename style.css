@@ -1,0 +1,102 @@
+body{
+    background-color: #184A45FF;
+    font-family: 'Comfortaa', cursive;
+    font-size: 36px;
+    text-align: center;
+}
+
+h1{
+    color: #B0B8B4FF;
+}
+
+h2{
+    color: #B0B8B4FF;
+
+}
+
+.inputName{
+    font-family: 'Comfortaa', cursive;
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+.newName{
+    font-family: 'Comfortaa', cursive;
+    width: 400px;
+    height: 40px;
+    background-color: #184A45FF;
+    color: #B0B8B4FF;
+    border: 2px solid #FC766AFF ;
+    border-radius: 10px;
+    margin: 10px 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+
+}
+
+.inputButton{
+    font-family: 'Comfortaa', cursive;
+    padding: 10px 15px;
+    /* height: 50px; */
+    border: none;
+    border-radius: 10px;
+    background-color: #FC766AFF;
+    font-size: 22px;
+    color: white;
+}
+
+.inputButton:hover{
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+.random{
+    font-family: 'Comfortaa', cursive;
+    margin: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FC766AFF;
+    font-size: 22px;
+    color: white;
+}
+
+.random:hover{
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3); 
+}
+
+.editButton{
+    width: 42px;
+    height: 42px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #B0B8B4FF;
+    font-size: 22px;
+}
+
+.deleteButton{
+    width: 42px;
+    height: 42px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FC766AFF;
+    font-size: 18px;
+    color: white;
+}
+
+.deleteButton:hover{
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.ganador{
+    color: #B0B8B4FF;
+}
